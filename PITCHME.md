@@ -40,7 +40,7 @@
     
     
     
-* @size[3.5em](- 1st version. Task: concept verification. July 2018.
+* @size[3.5em](1st version. Task: concept verification. July 2018.
 
 Channels - EOS and ETH.
 Backend - simple monolite node.js 
