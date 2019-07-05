@@ -46,20 +46,21 @@ Channels - EOS and ETH.
 Backend - simple monolite node.js 
 Frontend - very simple, just for presentation.
 Signer - integrated in frontend.)
-
-- 2nd version. Task: identify bottlenecks. November 2018
+---
+* @size[3.5em](2nd version. Task: identify bottlenecks. November 2018
 Channels - EOS, ETH, NEO, QTUM.
 Backend - micro-service arch, still node.js implementation
 Frontend - usual trading interface, but single user mode only.
-Signer - chrome extension based.
-- 3rd version. Task: building production architecture. August 2019
+Signer - chrome extension based.)
+---
+* @size[3.5em](3rd version. Task: building production architecture. August 2019
 Channels - BTC(LN), LTC, OMNI, EOS, ETH, NEO, QTUM 
 Backend - advanced latency reduce and throughput maximize architecture, rust and golang implementation. Rust for security and latency focused API layer. Golang for order engine and latency agnostic api components.
 Frontend - PWA based trading interface, multi-user mode, keyless.id auth.
 Signer - security and UX focused pwa solution. webpayments api for simple UI, MPC for security; separation of the solution into an independent project.
-Orchestrator - manage and update production implementation; 
+Orchestrator - manage and update production implementation.)
 
-- 4th version. Task: Increasing productivity, improving security, reducing the cost of ownership. Q4 2019 - Q1 2020
+* @size[3.5em](4th version. Task: Increasing productivity, improving security, reducing the cost of ownership. Q4 2019 - Q1 2020
 Channels - replication for forks.
 Backend - All api must Rust implementation, on state-less function with zero-copy serialisation/deserialisation; Sequencer as separate component; Matching engine move to OS kernel ring, for maximize throughput with software implementation)
 
